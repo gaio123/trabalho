@@ -74,3 +74,103 @@ footer {
     text-align: center;
     padding: 1rem;
 }
+
+/* Formulário */
+.container {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  overflow: hidden;
+}
+
+form fieldset {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+form legend {
+  font-weight: bold;
+  color: #777;
+}
+/* Campos de Entrada de Texto */
+.input-container {
+    margin-bottom: 10px;
+}
+
+.input-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #555;
+}
+
+/* Componentes Checkbox e Radio */
+.radio-group label {
+    display: inline;
+    margin-right: 10px;
+    font-weight: normal;
+  }
+  
+  .input-check {
+      display: inline-block;
+      margin-right: 10px;
+  }
+  
+  .input-check input[type="checkbox"] + label {
+      display: inline-block;
+      font-weight: normal;
+  }
+
+  /* Componentes Textarea e Select */
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical; /* Permite redimensionar verticalmente o textarea */
+    height: 120px; /* Altura inicial do textarea */
+  }
+  
+  select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+    /* Botões */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer; /* Adiciona um cursor de ponteiro */
+  }
+  
+  /* Botão de Limpar */
+  button[type="reset"] {
+    background-color: #6c757d;
+  }
+  
+  /* Botão de Enviar */
+  button:hover {
+    background-color: #0056b3;
+  }
